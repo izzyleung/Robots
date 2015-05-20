@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+ruby '2.2.2'
+gem 'sinatra', '~>1.4.5'
+gem 'twitter', '~>5.11.0'
