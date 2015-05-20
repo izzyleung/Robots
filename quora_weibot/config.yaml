@@ -1,0 +1,11 @@
+name: quoratweetsfetch
+version: 1
+
+libraries:
+- name: "flask"
+  version: "0.7.2"
+
+# cron:
+# - description: Send Weibo
+#   url: /cron/pub_weibo
+#   schedule: "*/30 * * * *"
