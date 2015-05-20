@@ -21,5 +21,5 @@ Moreover, Twitter's short URL service is not reachable in China, so I have to ex
     ACCESS_TOKEN_SECRET = 'YOUR_ACCESS_TOKEN_SECRET_HERE'
   end
 ```
-- Run the server: `foreman start`
+- Run the server: `bundle exec rackup -p 5000 config.ru`
 - Done!
