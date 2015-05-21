@@ -18,7 +18,7 @@ pip install -r requirement.txt
 
 Then create a database called `quorafetch` in MySQL, and crete the table using the code in `table_create.sql`.
 
-Finally, edit `example_credential.py` to fill in your credentials, and rename the file to `credential.py`.
+Finally, edit `credential_example.py` to fill in your credentials, and rename the file to `credential.py`.
 
 And run the server with
 

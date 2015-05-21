@@ -12,6 +12,6 @@ Moreover, Twitter's short URL service is not reachable in China, so I have to ex
 
 #Setup
 - Install dependencies: `bundle instal`
-- Edit `example_credential.rb` to fill in your Twitter credentials, and rename the file to `credential.rb`.
+- Edit `credential_example.rb` to fill in your Twitter credentials, and rename the file to `credential.rb`.
 - Run the server: `bundle exec rackup -p 5000 config.ru`
 - Done!
