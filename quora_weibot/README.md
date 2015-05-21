@@ -36,7 +36,3 @@ Pack all the dependencies by executing
 Then, commit the code by svn.
 
 Upload `table_create.sql` in the PHPMyAdmin page.
-
-#Problems with publishing Weibo status
-Now that Sina has blocked the hacking way to publish Weibo with leaked credential from 3rd party clients with higher privileges like Weico, it will be almost impossible to write a robot for Weibo. The quota for normal applications when it is not certified is pathetic, but if you want more quota, and have the application sent to Sina to get it certified, they will have countless reasons to reject yours.  
-The code that publishs Weibo in this robot does not work anymore, but it used to work. :-(
