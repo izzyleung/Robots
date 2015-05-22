@@ -1,6 +1,6 @@
 GRE Word lover
 ================
-Expand your GRE vocabulary.
+Expand your GRE vocabulary.  
 Gather a GRE word, convert its content to image, and publish it to Weibo every 10 minutes.
 
 #Setup
