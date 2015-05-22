@@ -10,7 +10,7 @@ SAE pre-installed modules are not included in `requirement.txt`. Please install 
 pip install django==1.4.0 lxml==2.3.4 MySQL-python==1.2.3
 ```
 
-Then, install `requests` by executing
+Then, install the remaining dependencies by executing
 
 ```
 pip install -r requirement.txt

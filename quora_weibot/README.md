@@ -10,7 +10,7 @@ Please install those modules with the corresponding version on SAE by executing 
 pip install Flask==0.7.2 MySQL-python==1.2.3
 ```
 
-Then, install `requests` by executing
+Then, install the remaining dependencies by executing
 
 ```
 pip install -r requirement.txt
