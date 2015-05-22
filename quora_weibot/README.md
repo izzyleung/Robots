@@ -25,14 +25,3 @@ And run the server with
 ```
 python quora_show.py
 ```
-
-#Deploy to SAE
-Pack all the dependencies by executing
-
-```
-./bundle_local.py -r requirement.txt
-```
-
-Then, commit the code by svn.
-
-Upload `table_create.sql` in the PHPMyAdmin page.
