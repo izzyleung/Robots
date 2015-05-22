@@ -1,0 +1,14 @@
+name: grewordlover
+version: 1
+
+libraries:
+- name: "django"
+  version: "1.4"
+
+- name: "lxml"
+  version: "2.3.4"
+
+# cron:
+# - description: Send Weibo
+#   url: /cron/pub_weibo/
+#   schedule: "*/1 * * * *"

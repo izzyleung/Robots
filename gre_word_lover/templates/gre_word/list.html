@@ -1,0 +1,25 @@
+{% extends 'gre_word/base.html' %}
+{% block title %}List {{ list_id }}{% endblock %}
+
+{% block body %}
+	<h1>List {{ list_id }}</h1>
+	{% include 'gre_word/word_list.html' %}
+
+		<ul>
+			{% for i in unit_range %}
+				<li><a href="/list/{{ list_id }}/unit/{{ i }}">Unit {{ i }}</a></li>
+			{% endfor %}
+		</ul>
+
+		{% if has_prev %}
+			<a href="/list/{{ list_id|add:"-1" }}">Previous List</a>
+		{% endif %}
+
+		{% if has_prev and has_next %}
+		 | 
+		{% endif %} 
+
+		{% if has_next %}
+			<a href="/list/{{ list_id|add:"1" }}">Next List</a>
+		{% endif %}
+{% endblock %}

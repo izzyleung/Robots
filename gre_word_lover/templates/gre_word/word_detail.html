@@ -1,0 +1,18 @@
+{% extends 'gre_word/base.html' %}
+{% block title %}Word Detail{% endblock %}
+
+{% block body %}
+	<p>{{ definition }}</p>
+
+	{% if prev_url %}
+		<a href="{{ prev_url }}">Previous Word</a>
+	{% endif %}
+
+	{% if prev_url and next_url %}
+	 | 
+	{% endif %}
+
+	{% if next_url %}
+		<a href="{{ next_url }}">Next Word</a>
+	{% endif %}
+{% endblock %}

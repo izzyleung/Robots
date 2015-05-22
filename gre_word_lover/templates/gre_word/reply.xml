@@ -1,0 +1,7 @@
+<xml>
+	<ToUserName><![CDATA[{{ to_user_name }}]]></ToUserName>
+	<FromUserName><![CDATA[GRE_Machine]]></FromUserName>
+	<CreateTime>12345678</CreateTime>
+	<MsgType><![CDATA[text]]></MsgType>
+	<Content><![CDATA[{{ content }}]]></Content>
+</xml>

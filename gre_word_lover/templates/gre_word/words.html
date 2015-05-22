@@ -1,0 +1,28 @@
+{% extends 'gre_word/base.html' %}
+{% block title %}Words{% endblock %}
+
+{% block body %}
+	<h1>Words</h1>
+	{% include 'gre_word/word_list.html' %}
+
+	
+	<div class="pagination">
+		<span class="step-links">
+			<div class="current">
+				Page {{ words.number }} of {{ words.paginator.num_pages }}.
+			</div>
+			
+			{% if words.has_previous %}
+				<a href="?page={{ words.previous_page_number }}">Previous Page</a>
+			{% endif %}
+
+			{% if words.has_previous and words.has_next %}
+			 | 
+			{% endif %}
+
+			{% if words.has_next %}
+				<a href="?page={{ words.next_page_number }}">Next Page</a>
+			{% endif %}
+		</span>
+	</div>
+{% endblock %}

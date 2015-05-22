@@ -1,0 +1,20 @@
+{% extends 'gre_word/base.html' %}
+{% block title %}List {{ list_id }} | Unit {{ unit_id }}{% endblock %}
+
+{% block body %}
+	<h1>List {{ list_id }} | Unit {{ unit_id }}</h1>
+	{% include 'gre_word/word_list.html' %}
+
+	{% if list_id != 1 or unit_id != 1 %}
+		<a href="{{ prev_url }}">Previous Unit</a>
+	{% endif %}
+
+	{% if prev_url and next_url %}
+	 | 
+	{% endif %} 
+
+	{% if list_id != 31 or unit_id != 8 %}
+		<a href="{{ next_url }}">Next Unit</a>
+	{% endif %}
+
+{% endblock %}

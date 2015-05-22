@@ -1,0 +1,14 @@
+{% extends 'gre_word/base.html' %}
+{% block title %}Lists{% endblock %}
+
+{% block body %}
+	<h1>Lists</h1>
+	{% include 'gre_word/word_list.html' %}
+
+	<ul>
+		{% for i in list_range %}
+			<li><a href="/list/{{ i }}">List {{ i }}</a></li>
+		{% endfor %}
+	</ul>
+	<a href="/">Back to home</a>
+{% endblock %}

@@ -1,0 +1,5 @@
+<ul>
+	{% for word in words %}
+		<li><a href="/word/?label={{ word.label }}"> {{ word.label }} </a></li>
+	{% endfor %}
+</ul>

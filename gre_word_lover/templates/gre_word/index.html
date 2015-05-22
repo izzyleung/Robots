@@ -1,0 +1,46 @@
+{% extends 'gre_word/base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block style %}
+	.top_nav {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.main_content { 
+		text-align:center;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    width: 500px;
+	    height: 300px;
+	    margin-left: -250px;
+	    margin-top: -150px;
+	}
+{% endblock %}
+
+{% block body %}
+	<div class="bg_img">
+		<div class="top_nav">
+			<a href="/words/">查看所有单词</a> | <a href="/lists/">按 List 查看单词</a> | <a href="/alphabetical/a">按字母顺序查看单词</a>
+		</div>
+
+		<div class="main_content">
+			<div class="search">
+				<form action="/word/" method="get">
+			    		搜索单词在 GRE 中的考点 </br>
+			    	<input name="label">
+			    	<input TYPE="SUBMIT" VALUE="搜索">
+			    </form>
+			</div>
+
+			<div class="disclaimer">
+				<em></br></br></br>所有单词及其释义的版权归陈琦老师所属</em> 
+			</div>
+
+			<p>
+				Author: <a href="http://izzyleung.github.io">Izzy Leung</a>
+			</p>
+		</div>
+	</div>
+{% endblock %}
