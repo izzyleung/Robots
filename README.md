@@ -19,6 +19,8 @@ Pack all the dependencies by executing
 
 Commit the code by svn, and, upload SQL file in the PHPMyAdmin page. (If it is not provided, you can dump it from MySQL)
 
+#Why include Django Admin static files
+SAE doesn't seem to provide those CSS and JS files for its users. Without those files, Django admin page will not be displayed properly. In order to show the original look of the admin page, I have to include those static file in each Django repo deployed on SAE.
 
 #Problems with publishing Weibo status
 Now that Sina has blocked the hacking way to publish Weibo with leaked credential from 3rd party clients with higher privileges like Weico, it will be almost impossible to write a robot for Weibo. The quota for normal applications when it is not certified is pathetic. If you want more quota, you must have the application sent to Sina to get it certified, but they will have countless reasons to reject yours.  

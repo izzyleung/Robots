@@ -42,4 +42,3 @@ and everything should be up and running properly.
 #What are those extra files:
 Since users are not allowed to save an image to the storage on SAE, I have to save the generated image as an IO stream, so that I have to modify the code in `weibo.py` and `sns.py` to let it work properly.
 All the images are generated using the font called `microhei.ttc` in the root folder.
-Without proper css and js provided, Django Admin page will be broken on SAE, so I have to include those static files in this repo.
