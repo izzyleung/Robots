@@ -15,3 +15,6 @@ Moreover, Twitter's short URL service is not reachable in China, so I have to ex
 - Edit `credential_example.rb` to fill in your Twitter credentials, and rename the file to `credential.rb`.
 - Run the server: `bundle exec rackup -p 5000 config.ru`
 - Done!
+
+#Why store one day's news in a single entry?
+Because the free version of PostgreSQL on Heroku only supports 10000 entries in a single database, I do not want to pay extra money for this accelerate server, so I have to save every day's news in a single entry. In the Django backend, I have to keep sync with the data so that I have to do the same thing.
