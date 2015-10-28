@@ -27,7 +27,7 @@ Load the words into the database with:
 ./manage.py loaddata fixtures/words.json
 ```
 
-__Please Note: the copyright of all the vocabulary materials belongs to Mr. Chen Qi, and Mr Zhou shulin.__
+__Please Note: the copyright of all the vocabulary materials belongs to Mr. Chen Qi, and Mr. Zhou Shulin.__
 
 Don't forget to edit `credential_example.py` to fill in your credentials, and rename the file to `credential.py`.
 
