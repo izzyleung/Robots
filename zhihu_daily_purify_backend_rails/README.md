@@ -26,3 +26,6 @@ rails s
 ```
 
 You should see the welcome page at `0.0.0.0:3000`
+
+#Why store one day's news in a single entry?
+Because the free version of PostgreSQL on Heroku only supports 10000 entries in a single database, I do not want to pay extra money for this accelerate server, so I have to save every day's news in a single entry. In the Django backend, I have to keep sync with the data so that I have to do the same thing.
