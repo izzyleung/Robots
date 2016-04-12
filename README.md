@@ -11,6 +11,12 @@ Various robots.
 
 Detailed description can be found under each project folder.
 
+#__Warning__
+Sina App Engine now charge you for using MySQL with ridiculous amount of money.
+Think twice before deploying your code to SAE.
+
+Shame on you, Sina! 
+
 #How to deploy the code to SAE
 Pack all the dependencies by executing
 
