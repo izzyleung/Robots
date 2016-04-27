@@ -3,9 +3,10 @@ Robots
 Various robots.
 
 #What are they?
-- `quora_weibot_backend`: Tweets fetching service running on Heroku that supports "Quora Weibot".
-- `quora_weibot`: Automatically checks the tweets of @Quora every 30 minutes, and reposts them to Weibo.
 - `gre_word_lover`: Gather a GRE word, convert its content to image, and publish it to Weibo every 10 minutes.
+- `quora_weibot`: Automatically checks the tweets of @Quora every 30 minutes, and reposts them to Weibo.
+- `quora_weibot_backend`: Tweets fetching service running on Heroku that supports "Quora Weibot".
+- `zhihu-daily-purify-azure`: Backend of Zhihu Daily Purify, written in Python with Flask. 
 
 Detailed description can be found under each project folder.
 
@@ -13,7 +14,7 @@ Detailed description can be found under each project folder.
 Sina App Engine now charge you for using MySQL with ridiculous amount of money.
 Think twice before deploying your code to SAE.
 
-Shame on you, Sina! 
+Shame on you, Sina!
 
 #How to deploy the code to SAE
 Pack all the dependencies by executing
