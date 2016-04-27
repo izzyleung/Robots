@@ -6,8 +6,6 @@ Various robots.
 - `quora_weibot_backend`: Tweets fetching service running on Heroku that supports "Quora Weibot".
 - `quora_weibot`: Automatically checks the tweets of @Quora every 30 minutes, and reposts them to Weibo.
 - `gre_word_lover`: Gather a GRE word, convert its content to image, and publish it to Weibo every 10 minutes.
-- `zhihu_daily_purify_backend_rails`: The backend of Zhihu Daily Purify deployed on Heroku.
-- `zhihu_daily_purify_backend_django`: The backend of Zhihu Daily Purify deployed on SAE.
 
 Detailed description can be found under each project folder.
 
