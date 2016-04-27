@@ -6,7 +6,7 @@ Various robots.
 - `gre_word_lover`: Gather a GRE word, convert its content to image, and publish it to Weibo every 10 minutes.
 - `quora_weibot`: Automatically checks the tweets of @Quora every 30 minutes, and reposts them to Weibo.
 - `quora_weibot_backend`: Tweets fetching service running on Heroku that supports "Quora Weibot".
-- `zhihu-daily-purify-azure`: Backend of Zhihu Daily Purify, written in Python with Flask. 
+- `zhihu_daily_purify_azure`: Backend of Zhihu Daily Purify, written in Python with Flask. 
 
 Detailed description can be found under each project folder.
 
