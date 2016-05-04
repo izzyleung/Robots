@@ -15,3 +15,6 @@ Moreover, Twitter's short URL service is not reachable in China, so I have to ex
 - Edit `credential_example.rb` to fill in your Twitter credentials, and rename the file to `credential.rb`.
 - Run the server: `bundle exec rackup -p 5000 config.ru`
 - Done!
+
+#Update
+Now Heroku put your application into sleep for 6 hours every day if you do not pay them money. Think twice before deploying this application to Heroku. If you are looking for high reliability, choose other PaaS platforms.
