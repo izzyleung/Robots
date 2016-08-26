@@ -1,1 +1,0 @@
-web: gunicorn ZhihuDailyPurify:app --worker-class aiohttp.worker.GunicornWebWorker --workers 4

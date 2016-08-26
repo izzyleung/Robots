@@ -1,7 +1,0 @@
-{
-  "name": "Zhihu Daily Purify Backend",
-  "description": "Zhihu Daily Purify Backend, written in Python3 with aiohttp",
-  "repository": "https://github.com/izzyleung/Robots/tree/master/zhihu_daily_purify_backend",
-  "image": "heroku/python",
-  "keywords": ["python", "aiohttp", "asyncio"]
-}
